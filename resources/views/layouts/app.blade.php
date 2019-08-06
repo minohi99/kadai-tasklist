@@ -26,6 +26,8 @@
         </header>
         
         <div class="container">
+            @include('layouts.error')
+            
             @yield('content')
         </div>
         
